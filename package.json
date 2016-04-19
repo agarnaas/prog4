@@ -1,0 +1,9 @@
+{
+  "name": "qstuff",
+  "description": "Minimal router and client",
+  "version": "0.0.1",
+  "dependencies": {
+    "amqplib": "*",
+    "coffee-script": "^1.10.0"
+  }
+}

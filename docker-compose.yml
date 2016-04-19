@@ -1,0 +1,12 @@
+version: '2'
+services:
+  program4:
+    build: .
+    command: node_modules/.bin/coffee start.coffee
+    depends_on:
+      - queue
+    volumes:
+      - .:/home/app
+      - /home/app/node_modules
+  queue:
+    image: rabbitmq:3-management

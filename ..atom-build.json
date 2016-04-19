@@ -1,0 +1,4 @@
+{
+  "cmd": "docker",
+  "args": [ "build", "-t", "bridge", "." ]
+}
